@@ -415,12 +415,13 @@ nav h1 a {
       }
       .filter-options {
         height: 8rem;
+        padding: 20px 0;
       }
       .filter-options select {
         align-items: center;
         text-align: center;
         margin: 0 1.8rem 0;
-        width: 60%;
+        width: 100%;
       }
       #map {
         height: 20rem;
