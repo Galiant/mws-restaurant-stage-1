@@ -427,7 +427,29 @@ nav h1 a {
         height: 20rem;
       }
     }
-    @media screen and (max-width: 365px) {
+    @media screen and (max-width: 670px) {
+      #restaurant-hours {
+        width: 90%;
+        padding-left: 2.5rem;
+      }
+    }
+    @media screen and (max-width: 474px) {
+      #restaurant-img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
+      #restaurant-cuisine,
+      #restaurant-address {
+        font-size: 1.2rem;
+        float: none;
+        clear: both;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    @media screen and (max-width: 375px) {
       #restaurants-list li h1 {
         margin: 0.2rem 0.2rem 0;
       }
