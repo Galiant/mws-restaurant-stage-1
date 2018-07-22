@@ -250,6 +250,15 @@ nav h1 a {
 
 /* ====================== Restaurant Details ====================== */
 
+.restaurant-h2 {
+  color: #fff;
+  font-size: 14pt;
+  font-weight: 200;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
+
 #restaurant-container::after {
   content: '';
   display: table;
