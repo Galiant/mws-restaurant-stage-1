@@ -205,6 +205,9 @@ nav h1 a {
   padding: 30px 30px;
   text-align: left;
   width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #restaurants-list .restaurant-img {
