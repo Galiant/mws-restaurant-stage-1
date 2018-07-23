@@ -88,12 +88,12 @@ nav {
   text-align: center;
 }
 
-nav h1 {
+nav h2 {
   margin: auto;
   padding-top: 2rem;
 }
 
-nav h1 a {
+nav h2 a {
   color: #fff;
   font-size: 14pt;
   font-weight: 200;
@@ -218,7 +218,7 @@ nav h1 a {
   min-width: 100%;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #f18200;
   font-family: Arial, sans-serif;
   font-size: 1.5rem;
@@ -393,24 +393,24 @@ nav h1 a {
 }
 
 @media screen and (max-width: 1200px) {
-  #restaurants-list li h1 {
+  #restaurants-list li h2 {
     font-size: 1.8rem;
   }
   @media screen and (max-width: 990px) {
-    #restaurants-list li h1 {
+    #restaurants-list li h2 {
       font-size: 1.5rem;
     }
     @media screen and (max-width: 765px) {
       #restaurants-list li {
         width: 100%;
       }
-      #restaurants-list li h1 {
+      #restaurants-list li h2 {
         font-size: 1.2rem;
       }
       #maincontent {
         min-width: 300px;
       }
-      nav h1 {
+      nav h2 {
         padding-top: 0;
       }
       .filter-options {
@@ -450,7 +450,7 @@ nav h1 a {
       }
     }
     @media screen and (max-width: 375px) {
-      #restaurants-list li h1 {
+      #restaurants-list li h2 {
         margin: 0.2rem 0.2rem 0;
       }
       #restaurants-list p {
